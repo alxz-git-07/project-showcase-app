@@ -1,23 +1,21 @@
 {
-    "store_info":[{
-        "id":1,
-        "name":"Coffee R Us",
-        "description":"The go to Store For Coffee",
-        "phone_number":"555-5555"
-    }],
-    "coffee":[{
-        "id":1,
-        "description":"Medium Roast, nutty flavour",
-        "name":"Vanilla bean",
-        "origin":"Columbia",
-        "price":10.00
-    },
+  "store_info": [
     {
-        "id":2,
-        "description":"Dark Roast, rich flavour",
-        "name":"House Blend",
-        "origin":"Vietnam",
-        "price":12.00
-
-    }]
+      "id": "1",
+      "name": "Coffee R Us",
+      "description": "The go to Store For Coffee",
+      "phone_number": "555-5555"
+    }
+  ],
+  "coffee": [
+    {
+      "id": "1",
+      "description": "Medium Roast, nutty flavour",
+      "name": "Vanilla bean",
+      "origin": "Columbia",
+      "price": 10,
+      "coffeeName": "expresso"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
